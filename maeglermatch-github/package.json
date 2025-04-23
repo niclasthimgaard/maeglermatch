@@ -1,16 +1,12 @@
-{
-  "name": "maeglermatch",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vite": "^4.4.0",
-    "@supabase/supabase-js": "^2.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "type": "module"
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MæglerMatch</title>
+    <base href="/" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
